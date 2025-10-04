@@ -1,5 +1,8 @@
-# Anthropic Reproducer
+# Anthropic Reproducers
 
-To reproduce, run `go run main.go` in the repository.
+## eventdecode
+To reproduce, run `go run ./eventdecode`.
 
-Alternatively, `go run github.com/eandre/anthropic-reproducer@latest` will also work.
+## imageurl
+To reproduce, run `go run ./imageurl -vertex-project-id=123123123` in the imageurl folder (use a real project ID).
+Note that the same code works fine when not using Vertex AI (leave out the `-vertex-project-id` flag.)
